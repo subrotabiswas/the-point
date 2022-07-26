@@ -1,0 +1,474 @@
+
+/* bootstrap & font-awesome CSS linking */
+
+@import url("bootstrap/css/bootstrap.min.css");
+
+@import url("font-awesome/font-awesome.min.css");
+
+/* @import url("https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"); */
+
+/* ----------------------------------------------- */
+
+/* Custom CSS Code */
+
+body {
+	font-family: 'Georgia';
+	background-color: #f8f8f8;
+}
+
+/* all button custom css */
+a:focus {
+	box-shadow: none!important;
+}
+
+.btn-red {
+	color: #fff;
+	background-color: #d54346;
+}
+
+.btn-red:hover {
+	color: #fff;
+	background-color: #871f21;
+}
+
+.btn-red-dark {
+	color: #fff!important;
+	background-color: #871f21;
+}
+
+.btn-red-dark:hover {
+	color: #871f21!important;
+	background-color: #fff;
+}
+
+/* top-horizontal rouler custom css*/
+.top-hr {
+	height: 10px;
+	background-color: #1c1c1c;
+}
+
+/* Top Nav logo custom css */
+.logo>img {
+	border-right-color: #b2b2b2 !important;
+}
+
+.logo>p {
+	font-size: 12px;
+	color: #b2b2b2;
+}
+
+/* Top nav Search custom css */
+.input-search {
+	width: auto;
+	height: auto;
+}
+
+.input-search>input {
+	max-height: 30px;
+	width: 213px !important;
+	border-radius: 0;
+	font-size: 12px;
+	border-color: #ddd;
+}
+
+.input-search input:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #ddd;
+	border-right: none;
+	z-index: 1!important;
+}
+
+.input-search>a {
+	font-size: 12px;
+	text-transform: uppercase;
+	height: 30px;
+	border-radius: 0;
+	line-height: 16px;
+}
+
+/* Top Nav Bar Button Custom CSS */
+.nav-button>ul>li {
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.5;
+	margin: 12px 0;
+	padding: 0 20px;
+	border-color: #c9c9c9!important;
+}
+
+.nav-button>ul>li>a {
+	color: #333;
+	text-transform: uppercase;
+}
+
+.nav-button>ul>li>p {
+	font-family: 'arial';
+	color: #999;
+	margin: 0;
+}
+
+/* Top Nav Bar Social Button Custom CSS */
+.social-nav li a {
+	line-height: 18px;
+	font-size: 14px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border-radius: 50%;
+}
+
+.social-nav li a i {
+	width: 12px;
+}
+
+.social-nav li .linkedin:hover {
+	border-color: #0e76a8;
+	background-color: #0e76a8;
+}
+
+.social-nav li .twitter:hover {
+	border-color: #00acee;
+	background-color: #00acee;
+}
+
+.social-nav li .pinterest:hover {
+	border-color: #c8232c;
+	background-color: #c8232c;
+}
+
+.social-nav li .google-plus:hover {
+	border-color: #db4a39;
+	background-color: #db4a39;
+}
+
+.slider-content {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10px 20px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slider-content>p {
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.5;
+	color: #bfbfbf;
+	width: -webkit-fill-available;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+/* Start Team section Custom CSS */
+.section-team {
+	background-color: #f8f8f8;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.tital-head {
+	text-align: center;
+}
+
+.tital-head h1 {
+	font-size: 38px;
+	color: #4a4a4a;
+	padding: 20px 0;
+	font-weight: 300;
+	margin: 0;
+}
+
+.tital-head p {
+	font-size: 26px;
+	color: #999;
+	padding-bottom: 50px;
+	font-weight: 300;
+	margin: 0;
+}
+
+/* Member custom CSS */
+.member {
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.member img {
+	width: 100%;
+	height: auto;
+}
+
+.member-info {
+	padding: 10px 0;
+}
+
+.member-info h5 {
+	font-size: 13px;
+	font-weight: 400;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #999;
+	margin: 0;
+}
+
+.member-info a {
+	font-size: 13px;
+	color: #d54346;
+	text-decoration: none;
+}
+
+/* splitter Custom CSS */
+.splitter {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Project Section Custom CSS */
+.projects {
+	/* padding: 50px 0; */
+	padding-top: 30px;
+	margin: 20px 0;
+}
+
+/* Projects title custom CSS */
+.project-title {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.project-title h3 {
+	font-size: 20px;
+	margin: 0;
+	color: #4a4a4a;
+	font-weight: 400;
+}
+
+.project-title h1 {
+	font-size: 66px;
+	margin: 0;
+	color: #d44346;
+}
+
+/* project information custom CSS */
+.project-info {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.project-info img {
+	width: 100%;
+	height: auto;
+}
+
+.project-info h3 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+	padding: 15px;
+	margin: 0;
+	color: #4a4a4a;
+	text-transform: uppercase;
+}
+
+.project-info p {
+	font-size: 13px;
+	color: #999;
+	line-height: 1.5;
+	padding: 0 10px;
+}
+
+.project-info a {
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+/* footer custome CSS */
+.footer {
+	background-color: #d54346;
+	border-top: 5px solid #871f21;
+	border-bottom: 1px solid #871f21;
+	padding-top: 30px;
+
+}
+
+.footer-tital-head {
+	padding-bottom: 25px;
+}
+
+.footer-tital-head h5 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.footer-tital-head p {
+	font-size: 13px;
+	color: #fff;
+	line-height: 20px;
+}
+
+.footer-tital-head a {
+	font-size: 13px;
+	color: #631618;
+	text-decoration: none;
+}
+
+.footer-tital-head a:hover {
+	color: #fff;
+}
+
+.footer-tital-head h4 {
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	line-height: 1;
+}
+
+.footer-tital-head time {
+	font-size: 10px;
+	color: #fff;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.footer-tital-head ul li {
+	background-color: #d54346;
+	border-bottom: 1px solid #d85255;
+	padding: 0;
+	color: #fff;
+}
+
+.footer-tital-head ul li a {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 5px 0 0 8px;
+}
+
+.form-newsletter>input {
+	font-family: 'Georgia';
+	font-size: 13px;
+	color: #807d77;
+	border: none;
+	line-height: 20px;
+}
+
+.form-newsletter>input:focus {
+	box-shadow: none;
+	border: none;
+}
+
+.form-newsletter>a {
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+.contact>p a {
+	color: #fff;
+}
+
+/* copyright section custome CSS */
+
+.copyright {
+	background-color: #d54346;
+	border-top: 1px solid #db6063;
+	padding: 20px 0;
+}
+
+.copyright p {
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	line-height: 20px;
+}
+
+
+
+/* Start Responsive Maximun screen size 992px Custom CSS Area */
+@media (max-width: 992px) {
+	.nav-button {
+		position: absolute;
+    	align-self: flex-start;
+    	display: block;
+    	margin-top: 48px;
+    	margin-left: 16px;
+    	width: 100%;
+    	max-width: 664px;
+    	background-color: rgba(255, 255, 255, 0.8);
+    	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    	z-index: 1;
+	}
+
+	.nav-button>ul>li {
+		border-right: 0!important;
+		border-bottom: 1px solid;
+		margin: 0;
+		padding: 10px;
+	}
+
+	.nav-button>ul>li:last-child {
+		border-bottom: none;
+	}
+
+	.social-nav {
+		flex-direction: row!important;
+	}
+
+	.tital-head h1 {
+		font-size: 26px;
+		padding-bottom: 10px;
+	}
+
+	.tital-head p {
+		font-size: 18px;
+	}
+
+	.project-title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.project-title h3 {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.project-title h1 {
+		font-size: 30px;
+		display: inline;
+		text-align: center;
+	
+	}
+}
+
+/* Start Responsive Maximun screen size 768px Custom CSS Area */
+@media (max-width: 768px) {
+	.nav-button {
+		max-width: 484px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.copyright>.container>div>p {
+		margin: 10px 0;
+		text-align: center;
+	} 
+}
+
+/* Start Responsive Maximun screen size 576px Custom CSS Area */
+@media (max-width: 576px) {
+	.nav-button {
+		width: 100%;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}
